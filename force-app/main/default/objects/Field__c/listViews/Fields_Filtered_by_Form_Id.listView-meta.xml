@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fields_Filtered_by_Form_Id</fullName>
+    <columns>NAME</columns>
+    <columns>Form__c</columns>
+    <columns>Title__c</columns>
+    <columns>Mapped_Contact_Field__c</columns>
+    <columns>Type__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Form__c</field>
+        <operation>equals</operation>
+        <value>F-000001</value>
+    </filters>
+    <label>Fields Filtered by Form Id</label>
+</ListView>

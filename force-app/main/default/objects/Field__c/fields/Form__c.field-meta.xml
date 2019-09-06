@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Form__c</fullName>
+    <description>Related Typeform Form</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Related Typeform Form</inlineHelpText>
+    <label>Form</label>
+    <referenceTo>Form__c</referenceTo>
+    <relationshipLabel>Form Fields</relationshipLabel>
+    <relationshipName>Fields</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>HttpMockResponseTypeForm</members>
+        <members>TestTypeformBatchGetFormDetails</members>
+        <members>TestTypeformCreateContactRESTService</members>
+        <members>TypeformBatchGetFormDetails</members>
+        <members>TypeformCreateContactRESTService</members>
+        <members>TypeformHTTPCallouts</members>
+        <members>TypeformUtilityClass</members>
+        <members>TypeformWrapper</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Field__c</members>
+        <members>Form__c</members>
+        <members>Form__c</members>
+        <members>Log_Entry__c</members>
+        <members>Typeform_Settings__c</members>
+         <members>Typeform_Assign_Owner_To_Contact__c </members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Form__c</members>
+        <members>Field__c</members>
+        <name>CustomTab</name>
+    </types>
+    <version>38.0</version>
+</Package>
